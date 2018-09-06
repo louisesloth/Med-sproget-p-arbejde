@@ -1,10 +1,43 @@
-body {
-  margin: 0;
-}
-
-header {
-  width: 100%;
-  height: 3rem;
+header{
+  width: 100vw;
+  height: 70px;
   background-color: $lightgrey;
-}
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: repeat(6, 16.6%);
+  grid-template-areas: "Gtilbage . . Gprofil Ghjem";
 
+
+  .knap-tilbage{
+    grid-area: Gtilbage;
+  }
+
+  .knap-profil{
+    grid-area: Gprofil;
+  }
+
+  .knap-hjem{
+    grid-area: Ghjem;
+  }
+
+  button{
+    border: transparent;
+    background-color: transparent;
+
+    height: 70px;
+
+    img{
+      width: 60%;
+      height: auto;
+    }
+  }
+  .header-right{
+    margin: 0 0 0 0;
+  }
+
+  .knap-tilbage{
+    img{
+      width: 35%;
+    }
+  }
+}
