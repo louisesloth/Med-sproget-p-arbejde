@@ -1,22 +1,18 @@
 #chat {
-  .boble{
+  .boble {
     width: 70%;
-    border-radius: 65px;
-    display: flex;
-    justify-content: center;
-    margin-top: 7%;
-  &.darkchat {
-    background-color: $darkblue;
-    color: $lightgrey;
-  }
-  &.lightchat {
-    background-color: $lightblue;
-    color: $black;
-    margin-left: 30%;
-  }
-  p {
-    width: 80%;
-  }
+    &.darkchat {
+      background-color: $darkblue;
+      color: $lightgrey;
+    }
+    &.lightchat {
+      background-color: $lightblue;
+      color: $black;
+      margin-left: 30%;
+    }
+    p {
+      width: 80%;
+    }
   }
   .raekke {
     width: 100%;
