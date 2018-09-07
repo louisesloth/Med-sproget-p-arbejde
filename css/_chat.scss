@@ -1,0 +1,43 @@
+#chat {
+  .boble{
+    width: 70%;
+    border-radius: 65px;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+  &.darkchat {
+    background-color: $darkblue;
+    color: $lightgrey;
+  }
+  &.lightchat {
+    background-color: $lightblue;
+    color: $black;
+    margin-left: 30%;
+  }
+  p {
+    width: 80%;
+  }
+  }
+  .raekke {
+    width: 100%;
+    position: fixed;
+    margin-top: 79%;
+    margin-bottom: 0;
+    article {
+      width: 148px;
+      height: 37px;
+      background-color: $lightblue;
+      border-radius: 65px;
+      display: flex;
+      justify-content: start;
+    }
+    .cirkel {
+      width: 37px;
+      height: 37px;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
