@@ -1,21 +1,26 @@
-.cirkel {
-  //background-color: transparentize($white, 1);
-  background-color: $white;
-
-  border-style: solid;
-  border-radius: 50%;
+.raekke {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
-}
-.cirkel1 {
-  border-color: $lightgrey;
-}
-.cirkel2 {
-  border-color: $lightblue;
-}
-.cirkel3 {
-  border-color: $darkblue;
-  background-color: $lightblue;
+  justify-content: space-evenly;
+  .cirkel {
+    background-color: $white;
+    border-style: solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+  }
+  .cirkel1 {
+    border-color: $lightgrey;
+  }
+  .cirkel2 {
+    border-color: $lightblue;
+  }
+  .cirkel3 {
+    border-color: $darkblue;
+    background-color: $lightblue;
+  }
+  .cirkel4 {
+    border-color: $black;
+  }
 }
