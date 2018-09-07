@@ -1,0 +1,31 @@
+.login{
+
+  h1, h2{
+    text-align: center;
+  }
+
+  form, a{
+
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 45px 0 45px;
+
+    input, button{
+      height: 25px;
+      border: $darkblue solid 2px;
+      border-radius: 25px;
+    }
+
+    button{
+      margin: 15px 85px 0 85px;
+      background-color: $lightblue;
+      height: 35px;
+      color: $black;
+      font-weight: 700;
+    }
+  }
+
+}
