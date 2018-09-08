@@ -1,25 +1,20 @@
 .boble{
   border-radius: 65px;
   display: flex;
-  justify-content: center;
-  margin-top: 7%;}
+  justify-content: space-around;
 .boble1 {
-  width: 95%;
   border: solid $darkblue;
   background-color: $lightblue;
+  margin: 4px;
+  padding: 8px;
+  width: 80vw;
 }
 .boble2 {
-  width: 95%;
   border: solid $lightblue;
-  align-self: center;
-  bottom: 50%;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-top: 7%;
 }
 .boble3 {
-  width: 90%;
-  margin-left: 5%;
-  border: solid $lightgrey;
-  display: flex;
-  align-items: center;
+  border: solid $black;
+  margin-top: 7%;
+}
 }
