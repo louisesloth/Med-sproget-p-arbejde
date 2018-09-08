@@ -1,6 +1,7 @@
 #chat {
   .boble {
     width: 70%;
+    margin-top: 7%;
     &.darkchat {
       background-color: $darkblue;
       color: $lightgrey;
@@ -17,8 +18,8 @@
   .raekke {
     width: 100%;
     position: fixed;
-    margin-top: 79%;
-    margin-bottom: 0;
+    margin-top: 75%;
+    //margin-bottom: 80%;
     article {
       width: 148px;
       height: 37px;
