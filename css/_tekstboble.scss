@@ -1,7 +1,8 @@
-.boble{
+.boble {
   border-radius: 65px;
   display: flex;
   justify-content: space-around;
+}
 .boble1 {
   border: solid $darkblue;
   background-color: $lightblue;
@@ -11,10 +12,20 @@
 }
 .boble2 {
   border: solid $lightblue;
-  margin-top: 7%;
+  width: 85vw;
 }
 .boble3 {
-  border: solid $black;
+  border: solid $lightgrey;
   margin-top: 7%;
+  width: 88%;
+  margin-left: 6%;
+
 }
+.boble4, .boble5 {
+  padding: 2px;
+  border: solid;
+  border-color: $lightgrey;
+}
+.boble4 {
+  border-color: $darkblue;
 }
