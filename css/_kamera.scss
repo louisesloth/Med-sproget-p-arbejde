@@ -60,11 +60,19 @@
       .godkend {
         display: flex;
         justify-content: space-between;
-          img {
-            max-width: 40px;
-            max-height: 40px;
+      .midt {
+        width: 60px;
+        height: 60px;
+        .inderst {
+          width: 50px;
+          height: 50px;
+            img {
+              max-width: 40px;
+              max-height: 40px;
+            }
           }
         }
       }
     }
+  }
   }
