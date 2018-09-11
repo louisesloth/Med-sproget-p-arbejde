@@ -9,6 +9,9 @@ window.onload = function () {
     let width = 200;
     let height = 0;
     let streaming = false;
+    let godkendImg = document.querySelector(".skjul");
+    let lsImg;
+
     getStream();
     switchBtn.onclick = function () {
         front = !front;
@@ -16,6 +19,9 @@ window.onload = function () {
     };
     captureBtn.onclick = function () {
         takePicture();
+        godkendImg.removeAttribute("class");
+        godkendImg.setAttribute("class", "vis");
+        localStorage.setItem("userImg", lsImg);
     };
     video.addEventListener("canplay", function () {
         if (!streaming){
@@ -47,6 +53,7 @@ window.onload = function () {
             context.drawImage(video, 0, 0, width, height);
             let data = canvas.toDataURL("image/png");
             photo.setAttribute("src", data);
+            lsImg = data;
         }
     }
     function handleError(error) {
