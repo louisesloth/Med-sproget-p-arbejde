@@ -7,18 +7,22 @@
     <link rel="stylesheet" href="css/samletScss.css">
 </head>
 
-<body>
+<body background="images/sky.jpg">
 
 
     <header>
         <a href="javascript:history.go(-1)" class="knap-tilbage"><button><img src="images/Ikoner png/Layer 30.png"/></button></a>
-        <a href="#" class="knap-profil"><button><img src="images/Ikoner png/Layer 28.png"/></button></a>
+        <a href="profil.html" class="knap-profil"><button><img src="images/Ikoner png/Layer 28.png"/></button></a>
         <a href="hjem.html" class="knap-hjem"><button><img src="images/Ikoner png/Layer 29.png"/></button></a>
     </header>
 
-    <div class="opretord">
+    <!--<div class="opretord">
         <img src="images/vask.jpg"/>
-    </div>
+    </div>-->
+
+    <main id="billede">
+        <img id="img">
+    </main>
 
     <div class="info">
         <form>
@@ -41,9 +45,11 @@
                 <option name="kategori" value="ny">Hjem</option>
             </select>
 
-            <button class="login-knap">Tilføj</button>
+            <a href="kategori.html"><button class="login-knap">Tilføj</button></a>
         </form>
     </div>
+
+    <script src="js/billede.js"></script>
 
 </body>
 </html>
