@@ -4,4 +4,24 @@
     max-width: 20%;
     margin: 5%;
   }
+  .cirkel1 {
+    width: 140px;
+    height: 140px;
+    .cirkel2 {
+      width: 130px;
+      height: 130px;
+      .cirkel3 {
+        width: 120px;
+        height: 120px;
+        h1 {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .raekke {
+    img {
+      width: 20%;
+    }
+  }
 }
