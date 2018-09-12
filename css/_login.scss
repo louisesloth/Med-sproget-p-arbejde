@@ -1,4 +1,4 @@
-.login{
+.login, .info{
 
   h1, h2{
     text-align: center;
@@ -19,7 +19,7 @@
       border-radius: 25px;
     }
 
-    button{
+    .login-knap{
       //margin: 15px 85px 0 85px; ændret til nedenstående af Louise
       margin: 15px 70px 0 70px;
       background-color: $lightblue;
