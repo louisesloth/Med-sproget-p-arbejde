@@ -1,0 +1,42 @@
+.chat-indgang{
+
+  a{
+    text-decoration: none;
+  }
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  button{
+    margin-top: 30px;
+    width: 300px;
+    height: 110px;
+    border-radius: 45px;
+    border-style: solid;
+
+    display: flex;
+
+    img{
+      height: 100px;
+      width: auto;
+      margin-left: -20px;
+    }
+
+    .tekst-wrapper {
+      margin-left: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      p {
+        text-align: initial;
+      }
+    }
+  }
+
+  i{
+
+  }
+
+}
