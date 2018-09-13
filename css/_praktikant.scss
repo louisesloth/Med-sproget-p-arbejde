@@ -1,0 +1,29 @@
+#praktikant {
+  img{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    left: 50%;
+    top: 43.5%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  p {
+    text-align: center;
+  }
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+                      "p1 p2"
+                      "p3 ."
+}
+#p1 {
+  grid-area: p1;
+}
+#p2 {
+   grid-area: p2;
+ }
+#p3 {
+    grid-area: p3;
+  }
+
+
